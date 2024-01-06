@@ -37,10 +37,10 @@ export default function ByName(){
         showData.BranchType?<h3>BranchType: {showData.BranchType}</h3>:null
       }
       
-      <h3>Circle: {showData.Circle}</h3>
-      <h3>District: {showData.District}</h3>
-      <h3>Division: {showData.Division}</h3>
-      <h3>Region: {showData.Region}</h3></div>):null
+      <h3  style={{display:"flex"}}>Circle: {showData.Circle}</h3>
+      <h3  style={{display:"flex"}}>District: {showData.District}</h3>
+      <h3 style={{display:"flex"}}>Division: {showData.Division}</h3>
+      <h3 style={{display:"flex"}}>Region: {showData.Region}</h3></div>):null
     }
     
     

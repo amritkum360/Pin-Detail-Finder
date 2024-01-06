@@ -55,10 +55,10 @@ export default function ByPin() {
               <h1 style={{ textDecoration: "underline" }}>{office.Name}({office.Pincode})</h1>
               {office.Description && <h3>{office.Description}</h3>}
               {office.BranchType && <h3>BranchType: {office.BranchType}</h3>}
-              <h3>Circle: {office.Circle}</h3>
-              <h3>District: {office.District}</h3>
-              <h3>Division: {office.Division}</h3>
-              <h3>Region: {office.Region}</h3>
+              <h3 style={{display:"flex"}}>Circle: {office.Circle}</h3>
+              <h3 style={{display:"flex"}}>District: {office.District}</h3>
+              <h3 style={{display:"flex"}}>Division: {office.Division}</h3>
+              <h3 style={{display:"flex"}}>Region: {office.Region}</h3>
             </div>
           ))}
         </div>
